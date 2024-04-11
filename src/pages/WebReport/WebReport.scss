@@ -1,0 +1,28 @@
+$primary-color: var(--hard-red);
+@import 'loaders.css/src/animations/pacman.scss';
+
+.main-section {
+    margin: auto;
+    max-width: 1200px;
+}
+.main-tittle {
+    color: var(--hard-red);
+}
+
+.loader-hidden {
+    display: none;
+  }
+  
+  .loader-active {
+    display: block;
+    position: absolute;
+    left: 50%;
+    right: calc(100% - 50%);
+    margin: auto;
+    top: 25%;    
+    width: 50px;
+    height: 50px;
+    animation: fadeOut 1s 1s;
+    animation-fill-mode: forwards;
+  }
+  

@@ -1,0 +1,14 @@
+.stats-table {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    background: var(--soft-cream);
+}
+
+.user-row {
+    display: flex   !important;
+    flex-wrap: wrap;
+    gap: .5em;
+    align-items: center;
+}
